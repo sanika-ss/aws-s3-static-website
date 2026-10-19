@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS S3 Static Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #243047;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: #ff9900;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #172b4d;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 22px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000012;
+        }
+
+        h2 {
+            color: #e47911;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 45px 25px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 12px 22px;
+            background: #ff9900;
+            color: #172b4d;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #172b4d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AWS S3 Static Website Hosting</h1>
+        <p>My Cloud Computing Project</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">AWS Services</a>
+        <a href="#steps">Implementation</a>
+        <a href="#outcome">Outcome</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to My AWS Project</h2>
+            <p>
+                This website demonstrates static website hosting
+                using Amazon Simple Storage Service (Amazon S3).
+            </p>
+            <a class="button" href="#steps">Explore Project</a>
+        </section>
+
+        <section id="about">
+            <h2>Project Objective</h2>
+            <p>
+                To host a static website on Amazon S3 and understand
+                cloud storage, website hosting, and public access settings.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>AWS Services Used</h2>
+            <ul>
+                <li>Amazon S3</li>
+                <li>AWS Management Console</li>
+            </ul>
+        </section>
+
+        <section id="steps">
+            <h2>Implementation Steps</h2>
+            <ul>
+                <li>Create an S3 bucket.</li>
+                <li>Upload the index.html file.</li>
+                <li>Enable static website hosting.</li>
+                <li>Configure the required permissions.</li>
+                <li>Open the website using its S3 website endpoint.</li>
+            </ul>
+        </section>
+
+        <section id="outcome">
+            <h2>Project Outcome</h2>
+            <p>
+                This project demonstrates the basic process of
+                deploying a static website using AWS S3.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>AWS Cloud Project | Learning Cloud Computing and DevOps</p>
+    </footer>
+</body>
+</html>
